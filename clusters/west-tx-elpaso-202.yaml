@@ -1,0 +1,11 @@
+kind: Cluster
+metadata:
+  name: west-tx-elpaso-202
+  labels:
+    environment: dev
+    region: west
+    zone: west-tx
+    district: west-tx-elpaso
+    store: west-tx-elpaso-202
+    domain: west-tx-elpaso-202.
+spec:
