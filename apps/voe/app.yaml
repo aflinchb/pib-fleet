@@ -1,0 +1,7 @@
+app: voe
+environment: dev
+name: voe
+namespace: voe
+target: dev
+targets: [ all ]
+workspace: voe
