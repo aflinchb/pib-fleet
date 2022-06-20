@@ -22,7 +22,7 @@ spec:
       labels:
         app: webmodule
       annotations:
-        gitops.version: v-22-06-20-17-48-31
+        gitops.version: v-22-06-20-17-50-40
     spec:
       nodeSelector:
         "beta.kubernetes.io/os": linux
