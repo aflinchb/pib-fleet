@@ -3,5 +3,5 @@ environment: dev
 name: voe
 namespace: voe
 target: dev
-targets: [ ]
+targets: [ all ]
 workspace: voe
