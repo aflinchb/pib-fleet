@@ -10,3 +10,4 @@ resources:
 - rtspsim.yaml
 - upload.yaml
 - web.yaml
+- ingress.yaml
