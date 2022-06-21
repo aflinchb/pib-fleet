@@ -22,7 +22,7 @@ spec:
       labels:
         app: inferencemodule
       annotations:
-        gitops.version: v-22-06-21-19-24-29
+        gitops.version: v-22-06-21-19-30-48
     spec:
       nodeSelector:
         "beta.kubernetes.io/os": linux
