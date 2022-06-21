@@ -1,0 +1,11 @@
+kind: Cluster
+metadata:
+  name: central-tx-elpaso-555
+  labels:
+    environment: dev
+    region: central
+    zone: central-tx
+    district: central-tx-elpaso
+    store: central-tx-elpaso-555
+    domain: central-tx-elpaso-555.
+spec:
