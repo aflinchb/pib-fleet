@@ -5,7 +5,7 @@ metadata:
   namespace: voe
 spec:
   hosts:
-    - "central-tx-elpaso-555."
+    - "20.83.1.36"
   gateways:
     - istio-system/istio-gateway
   http:
@@ -27,7 +27,7 @@ metadata:
   namespace: voe
 spec:
   hosts:
-    - "central-tx-elpaso-555."
+    - "20.83.1.36"
   gateways:
     - istio-system/istio-gateway
   http:
@@ -49,7 +49,7 @@ metadata:
   namespace: voe
 spec:
   hosts:
-    - "central-tx-elpaso-555."
+    - "20.83.1.36"
   gateways:
     - istio-system/istio-gateway
   http:
