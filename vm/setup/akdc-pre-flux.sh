@@ -41,6 +41,9 @@ echo "IOTEDGE_DEVICE_CONNECTION_STRING=$(az iot hub device-identity connection-s
 echo "ENDPOINT=$(az cognitiveservices account show -n voe -g voe-iot --query properties.endpoint -o tsv)" > "$HOME/.ssh/acs.env"
 echo "TRAINING_KEY=$(az cognitiveservices account keys list -n voe -g voe-iot --query key1 -o tsv)" >> "$HOME/.ssh/acs.env"
 
+kubectl create ns voe
+
+kubectl create secret generic azure-env --from-env-file "$HOME/.ssh/iot.env" --from-env-file="$HOME/.ssh/acs.env" -n voe
 
 if [ -n "$(find ./bootstrap/* -iregex '.*\.\(yaml\|yml\|json\)' 2>/dev/null)" ]
 then
